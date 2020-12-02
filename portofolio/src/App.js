@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Intro from "./component/screen/intro/Intro";
+import About from "./component/screen/about/About";
 import Achieve from "./component/screen/achieve/Achieve";
 import Navbarr from "../src/component/navbar/Navbar";
 import Writer from "./component/typeWriter/TypeWriter";
@@ -12,7 +12,7 @@ export default function App() {
       <Navbarr />
       <Carousell />
       <Writer />
-      <Intro />
+      <About />
       <Achieve />
     </div>
   );

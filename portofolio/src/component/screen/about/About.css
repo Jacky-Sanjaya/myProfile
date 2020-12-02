@@ -1,0 +1,36 @@
+.aboutContainer {
+  word-break: break-all;
+  height: 100vh;
+}
+.about {
+  font-weight: bold;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 5vw;
+}
+
+.about1 {
+  background-color: #317ae1;
+  height: 100vh;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.about2 {
+  background-color: #fff;
+  height: 100vh;
+}
+
+.image {
+  position: absolute;
+  width: 100%;
+  height: 425px;
+  left: 0px;
+  object-fit: cover;
+}
+.desc {
+  text-align: justify;
+  padding-top: 65%;
+  font-family: "Montserrat", sans-serif;
+}
