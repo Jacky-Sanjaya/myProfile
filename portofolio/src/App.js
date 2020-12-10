@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.css";
 import About from "./component/screen/about/About";
-import Achieve from "./component/screen/achieve/Achieve";
-import Navbarr from "../src/component/navbar/Navbar";
+import Stack from "./component/screen/stack/Stack.jsx";
+import Navbarr from "../src/component/navbar/Navbar.jsx";
 import Writer from "./component/typeWriter/TypeWriter";
 import Carousell from "./component/carousel/Carousel";
+import Project from "./component/screen/project/Project.jsx";
 
 export default function App() {
   return (
@@ -13,7 +14,8 @@ export default function App() {
       <Carousell />
       <Writer />
       <About />
-      <Achieve />
+      <Stack />
+      <Project />
     </div>
   );
 }

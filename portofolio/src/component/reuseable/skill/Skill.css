@@ -1,0 +1,68 @@
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  will-change: transform;
+}
+
+.card1 {
+  width: 15ch;
+  height: 15ch;
+  background-image: url(https://wallpaperaccess.com/full/93557.jpg);
+}
+
+.card2 {
+  width: 15ch;
+  height: 15ch;
+  background-image: url(https://img.icons8.com/carbon-copy/500/000000/react.png);
+  position: absolute;
+}
+
+.card3 {
+  margin-top: 1.5ch;
+  width: 12ch;
+  height: 12ch;
+  background-image: url(https://img.icons8.com/nolan/512/react-native.png);
+  position: absolute;
+}
+.card4 {
+  margin-top: 1.5ch;
+  width: 12ch;
+  height: 12ch;
+  background-image: url(https://img.icons8.com/color/500/000000/javascript.png);
+
+  position: absolute;
+}
+.card5 {
+  margin-top: 1.5ch;
+  width: 12ch;
+  height: 12ch;
+  background-image: url(https://img.icons8.com/color/500/000000/html-5.png);
+
+  position: absolute;
+}
+.card6 {
+  margin-top: 1.5ch;
+  width: 12ch;
+  height: 12ch;
+  background-image: url(https://img.icons8.com/color/500/000000/css3.png);
+  position: absolute;
+}
+.container {
+  align-items: center;
+  margin-top: 10px;
+  flex-direction: column;
+  display: flex;
+}
+.skill-tittle {
+  text-align: center;
+  font-size: 3ch;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}

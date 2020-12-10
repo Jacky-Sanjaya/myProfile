@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const MyScroll = styled.div`
   position: relative;
-  z-index: 1;
+
   bottom: 1.6em;
   display: flex;
   width: 100%;
