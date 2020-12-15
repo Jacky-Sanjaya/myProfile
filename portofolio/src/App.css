@@ -1,0 +1,26 @@
+.grid-container {
+  height: 100%;
+  margin: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 75% 25%;
+  gap: 0px 0px;
+  grid-template-areas:
+    "about image"
+    "about buton";
+}
+
+.about {
+  grid-area: about;
+}
+
+.image {
+  grid-area: image;
+}
+
+.buton {
+  grid-area: buton;
+}
