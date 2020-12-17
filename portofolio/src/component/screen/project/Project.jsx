@@ -28,7 +28,7 @@ function Project(props) {
   const [name, setName] = useState("");
 
   return (
-    <div id="projects">
+    <div className="project-container" id="projects">
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline>
         <Events>

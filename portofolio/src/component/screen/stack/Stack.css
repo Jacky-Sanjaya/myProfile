@@ -1,29 +1,29 @@
 .stack-box {
-  background-color: blueviolet;
-  height: 768px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+	background-color: blueviolet;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 .tech {
-  align-self: center;
-  margin-bottom: 25px;
-  font-size: 50px;
-  font-weight: bold;
-  color: #fff;
+	align-self: center;
+	margin-bottom: 25px;
+	font-size: 50px;
+	font-weight: bold;
+	color: #fff;
 }
 .tech:hover {
-  align-self: center;
-  margin-bottom: 25px;
-  font-size: 50px;
-  font-weight: bold;
-  color: #fff;
-  transition: all 500ms;
-  font-size-adjust: 65px;
+	align-self: center;
+	margin-bottom: 25px;
+	font-size: 50px;
+	font-weight: bold;
+	color: #fff;
+	transition: all 500ms;
+	font-size-adjust: 65px;
 }
 @media all and (max-width: 1024px) {
-  .stack-box {
-    background-color: blueviolet;
-    height: 100%;
-  }
+	.stack-box {
+		background-color: blueviolet;
+		height: 100%;
+	}
 }
